@@ -1,0 +1,28 @@
+{
+  "name": "telegram-bot-openrouter",
+  "version": "1.0.0",
+  "description": "Un bot Telegram qui utilise l'API OpenRouter pour générer des réponses motivantes et alpha.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "openrouter",
+    "motivation",
+    "alpha"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
