@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import TelegramBot from 'node-telegram-bot-api';
 import fetch from 'node-fetch';
+import http from 'http';
 
 // Configurer les tokens
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
